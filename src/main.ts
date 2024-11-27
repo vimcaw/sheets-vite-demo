@@ -65,7 +65,7 @@ univer.createUnit(UniverInstanceType.UNIVER_SHEET, {
           "tabColor": "",
           "hidden": 0,
           "rowCount": 30,
-          "columnCount": 10,
+          "columnCount": 100,
           "zoomRatio": 1,
           "freeze": {
               "startRow": -1,
