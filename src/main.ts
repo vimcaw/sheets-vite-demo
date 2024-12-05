@@ -1,6 +1,6 @@
 import "./style.css";
 
-import { LocaleType, Univer, UniverInstanceType } from "@univerjs/core";
+import { LocaleType, Univer, UniverInstanceType, WrapStrategy } from "@univerjs/core";
 import { defaultTheme } from "@univerjs/design";
 import { UniverDocsPlugin } from "@univerjs/docs";
 import { UniverDocsUIPlugin } from "@univerjs/docs-ui";
@@ -78,7 +78,16 @@ univer.createUnit(UniverInstanceType.UNIVER_SHEET, {
           "defaultColumnWidth": 73,
           "defaultRowHeight": 23,
           "mergeData": [],
-          "cellData": {},
+          "cellData": {
+            0: {
+                0: {
+                    v: 'AAAAAAAAAAAA',
+                    s: {
+                        tb: WrapStrategy.WRAP
+                    }
+                }
+            }
+          },
           "rowData": {},
           "columnData": {
               "0": {
